@@ -1,14 +1,14 @@
 body {
     margin: 0;
-    background-color: #f5f7fa;
+    background-color: #f3f3f3;
 }
 
 .container {
     width: min(800px, 88%);
     margin: 0 auto;
     border-radius: 7px;
-    background: white;
-    padding: 23px 40px;
+    background: #ffffff;
+    padding: 23px 50px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
@@ -49,12 +49,75 @@ main {
     background-color: white;
     padding: 1rem 2rem;
 }
-/* .nav-bar a {
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-} */
-/*
-body {
-    background-color: yellow;
-} */
+.sub-container {
+    border-left: 3px solid #4f7fd6;
+    background-color: #eef1f4;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 0.5rem 1rem;
+    margin: 1.2rem 0.7rem;
+    border-radius: 3px;
+    padding-left: 1.4rem;
+}
+#about-me-first-row {
+    display: flex;
+    gap: 20px;
+}
+.intro {
+    flex: 1.8;
+}
+.education {
+    flex: 1.2;
+}
+.footer {
+    margin-top: 60px;
+    padding: 20px 0;
+    text-align: center;
+    color: #555;
+    font-size: 0.9rem;
+}
+  
+.footer-links {
+margin-top: 3px;
+}
+  
+.footer-links a {
+margin: 0 5px;
+text-decoration: none;
+color: #333;
+}
+
+.div1 {
+    margin-bottom: 2rem;
+}
+.space1 {
+    margin-bottom: 1.5rem;
+}
+.space2 {
+    margin: 6rem;
+}
+
+.github {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.contact p {
+    margin-bottom: 12px;
+}
+
+
+.project-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.project h3 {
+    font-size: 1.4rem;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.project h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.sub-divider {
+    margin-top: 3rem;
+}
