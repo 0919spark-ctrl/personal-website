@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #f5f5f5;
+    background-color: #f3f4f6;
 }
 
 .container {
@@ -30,6 +30,7 @@ header h1 a {
 }
 ul {
     list-style: none;
+    margin: 0;
 }
 nav {
     margin-left: auto;
@@ -92,7 +93,7 @@ main {
     font-size: 0.9rem;
 }
 .project-detail {
-    margin: 0.3rem;
+    margin: 0.1rem;
     padding: 0.1rem;
     font-size: 1.08rem;
     /* text-size-adjust: 5rem; */
@@ -110,6 +111,12 @@ margin-top: 3px;
 margin: 0 5px;
 text-decoration: none;
 color: #333;
+}
+.footer-links a:hover {
+    background-color: rgb(205, 206, 213);
+}
+.fotter-links a:visited {
+    color: #333;
 }
 
 .div1 {
@@ -147,4 +154,33 @@ color: #333;
 .sub-divider {
     margin-top: 3rem;
 }
+/* .project-description {
+    padding: 0 0.7rem;
+} */
+
+.project-description ul li {
+    margin-left: 0;
+    margin-bottom: 0.27rem;
+}
+.project-description ul {
+    list-style-type: disc;
+    margin-left: 0;
+    margin-bottom: 1.4rem;
+}
+a {
+    color: #1f55cb;   /* clean blue */
+    font-weight: 70;
+    text-decoration: none;
+}
+a:hover {
+    background-color: rgb(205, 206, 213);
+} 
+.meta-description {
+    padding: 0 1rem;
+    margin: 0.2rem;
+}
+
+
+
+
 
